@@ -1,7 +1,10 @@
 ## ManageMe
 A web based platform to help organize and transition brick and mortar business' to eCommerce platforms.
+
 **Tech Stack:** MongoDB, Express.js, React.js, Node.js, Redux, Socket.io
+
 **Contributors**: [Hamaad Chughtai](https://github.com/Hamaad102)
+
 **Live Demo**: https://elastic-albattani-69ef0f.netlify.app/
 
 ---
