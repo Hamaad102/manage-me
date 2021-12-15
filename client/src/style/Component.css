@@ -1,0 +1,327 @@
+/* Container */
+.container {
+	margin-inline: auto;
+	width: min(90%, 120rem);
+}
+
+.flexColumn {
+	display: flex;
+	flex-direction: column;
+}
+
+.flexRow {
+	display: flex;
+	flex-direction: row;
+}
+
+.centerColumn {
+	align-items: center;
+	justify-content: center;
+}
+
+.centerRow {
+	align-items: center;
+	justify-content: center;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+
+.panelContainer {
+	display: flex;
+	align-content: center;
+}
+
+.panel {
+	width: 26rem;
+	height: 35.438rem;
+	border: var(--border);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.centerForm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Spacer */
+.spacer {
+	margin-left: 1.5rem !important;
+	margin-right: 1.5rem !important;
+}
+
+.right {
+	margin-left: auto !important;
+}
+
+.leftSpacer {
+	margin-left: 1.5rem !important;
+}
+
+.rightSpacer {
+	margin-right: 1.5rem !important;
+}
+
+/* Button Styles */
+.buttonOveride {
+	border: 0;
+	border-radius: 0;
+	background: none;
+	white-space: nowrap;
+	text-decoration: none;
+	padding: 0.25rem 0.5rem;
+	margin: 0.25rem;
+	cursor: pointer;
+}
+
+.buttonStyle {
+	font-family: var(--ff-lato);
+	font-weight: 700;
+	border: var(--border);
+	color: var(--color-secondary);
+}
+
+.buttonHover {
+	transition-timing-function: ease-in-out !important;
+	transition: 0.3s;
+}
+
+.buttonHover:hover {
+	color: var(--color-primary);
+	background-color: var(--color-secondary);
+}
+
+.altHover {
+	transition-timing-function: ease-in-out !important;
+	transition: 0.3s;
+}
+
+.altHover:hover {
+	background-color: var(--color-hover);
+}
+
+/* Text Style */
+
+.firaBook {
+	font-family: var(--ff-fira);
+	font-weight: 300;
+}
+
+.lato {
+	font-family: var(--ff-lato);
+	font-weight: 700;
+}
+
+.textCenter {
+	text-align: center;
+}
+
+.panelText {
+	font-size: 1.5rem;
+	margin-top: 3rem;
+}
+
+.sub {
+	font-weight: normal;
+}
+
+/* Textfield Style */
+
+.textField > label {
+	font-family: var(--ff-fira);
+	font-weight: 200;
+	padding-left: 1rem;
+	line-height: 0.5rem;
+	font-size: 1rem;
+}
+
+.textField > div > input {
+	padding-left: 0.25rem;
+}
+
+/* Icon Size */
+.icon {
+	width: var(--iconSize);
+}
+
+.iconAlt {
+	width: 2.629rem;
+}
+
+.navLogo {
+	width: 13.551rem;
+}
+
+.navLogoAlt {
+	width: 13.551rem;
+}
+
+/* Cart Style */
+.cartButton {
+	width: 3rem;
+	margin-top: 0.7rem;
+}
+
+#full {
+	transition: 0.3s;
+	fill: var(--color-secondary);
+}
+
+#empty {
+	transition: 0.3s;
+	fill: none;
+}
+
+.switchTextButton {
+	cursor: pointer;
+	border-bottom: 1px solid black;
+}
+
+.switchTextButton:hover {
+	border-bottom: none;
+}
+
+.headerLogo {
+	width: 28.375rem;
+}
+
+.blurb {
+	width: 37.563rem;
+}
+
+.salesIcon {
+	font-size: 6.875rem;
+}
+
+.salesText {
+	margin-top: 0.75rem;
+	font-size: 3.75rem;
+}
+
+@media only screen and (max-width: 1440px) {
+	.panel {
+		width: 18rem;
+		height: 29.9625468164794vh;
+	}
+	.panelText {
+		font-size: calc(1.5rem / 1.5);
+		margin-top: 3.595505617977528vh;
+	}
+
+	.icon {
+		width: var(--iconSizeMedium);
+	}
+	.salesIcon {
+		font-size: calc(6.875rem / 1.5);
+	}
+	.salesText {
+		font-size: calc(3.75rem / 1.5);
+	}
+}
+
+@media only screen and (max-width: 823px) {
+	.panel {
+		width: 75vw;
+		height: 24vh;
+	}
+	.panelCenter {
+		margin-top: 5vh;
+	}
+
+	.iconAlt {
+		width: 2rem;
+	}
+
+	@media only screen and (orientation: landscape) {
+		.panel {
+			width: 75vw;
+			height: 32vw;
+		}
+		.panelCenter {
+			margin-top: 5vw;
+		}
+		.panelText {
+			margin-top: 3.5vw;
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.navLogo {
+		width: 10.551rem;
+	}
+
+	.navLogoAlt {
+		width: 10.551rem;
+	}
+	.cartButton {
+		width: 2.5rem;
+		margin-top: 0.5rem;
+	}
+	.salesIcon {
+		font-size: calc(6.875rem / 1.8);
+	}
+
+	.salesText {
+		font-size: calc(3.75rem / 1.8);
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	.headerLogo {
+		width: calc(28.375rem / 2.25);
+	}
+	.blurb {
+		width: calc(37.563rem / 2.25);
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	.panel {
+		width: 75vw;
+		border: var(--border) !important;
+	}
+	.authPanel {
+		width: 12.5vw;
+		height: 32.359550561797754vh;
+	}
+	.buttonStyle {
+		border: 0.125rem solid var(--color-secondary) !important;
+	}
+
+	.icon {
+		width: var(--iconSizeSmall);
+	}
+
+	.panelText {
+		margin-top: 1.797752808988764vh;
+	}
+	.navLogo {
+		margin-top: 0.25rem;
+		width: 12rem;
+	}
+
+	.navLogoAlt {
+		margin-top: 0.25rem;
+		width: 8rem;
+	}
+	.cartButton {
+		margin-top: 0.25rem;
+		margin-right: -0.5rem !important;
+		width: 1.8rem;
+	}
+	.switchText {
+		font-size: 0.9rem;
+	}
+	.salesIcon {
+		font-size: calc(6.875rem / 2.75);
+	}
+
+	.salesText {
+		font-size: calc(3.75rem / 2.75);
+	}
+}

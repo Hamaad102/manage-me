@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@500&family=Fira+Sans:wght@200;300&family=Lato:wght@700&display=swap;');
+
+:root {
+	--ff-fira: 'Fira Sans', sans-serif;
+	--ff-lato: 'Lato', sans-serif;
+	--ff-asap: 'Asap Condensed', sans-serif;
+	--color-primary: #f7bd02;
+	--color-secondary: #000000;
+	--color-hover: hsl(46, 98%, 55%);
+
+	--border: 0.25rem solid var(--color-secondary);
+	--iconSize: 12.518rem;
+	--iconSizeMedium: calc(var(--iconSize) / 1.8);
+	--iconSizeSmall: calc(var(--iconSize) / 2.5);
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--color-primary);
+}
+
+@import 'Component.css';
