@@ -32,7 +32,7 @@ A web based platform to help organize and transition brick and mortar business' 
 ### Demo
 
 1. Login/Signup or use Demo Account
-![Screenshot (46)](https://user-images.githubusercontent.com/18343242/146262271-f69d224f-e120-4ae4-9268-0096fba529bf.png)
+![Screenshot (53)](https://user-images.githubusercontent.com/18343242/146262763-bc588cb4-f4ec-475a-99cd-37742dde346b.png)
 ![Screenshot (47)](https://user-images.githubusercontent.com/18343242/146262284-b2eb5ce9-7c6c-4751-b69c-bb5c45eb9720.png)
 ![Screenshot (48)](https://user-images.githubusercontent.com/18343242/146262297-8b64ea5f-ce16-4d5d-a5dd-c45e94db90d3.png)
 
